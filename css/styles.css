@@ -1,0 +1,272 @@
+body a:link {
+  text-decoration: none;
+  color: black !important; }
+body a:visited {
+  text-decoration: none; }
+body a:hover {
+  text-decoration: none;
+  color: #BE1622 !important; }
+
+.navbar-light .navbar-toggler-icon {
+  background: url("../assets/images/Hamburger_Poging_2000.png") no-repeat !important;
+  -webkit-background-size: contain !important;
+  -moz-background-size: contain !important;
+  -o-background-size: contain !important;
+  background-size: contain !important; }
+
+.navbar-toggler-icon {
+  width: 2.5em !important;
+  height: 2.5em !important; }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important; }
+
+button:focus {
+  outline: none !important; }
+
+#contactLink a.nav-link {
+  color: #BE1622 !important; }
+
+#contactLink > a:hover {
+  color: black !important; }
+
+@font-face {
+  font-family: Aaargh;
+  src: url("../assets/fonts/Aaargh.ttf"); }
+@font-face {
+  font-family: Arial Rounded;
+  src: url("../assets/fonts/Arial Rounded Bold.ttf"); }
+@font-face {
+  font-family: BEBAS;
+  src: url("../assets/fonts/Bebas.ttf"); }
+@font-face {
+  font-family: coffee icons;
+  src: url("../assets/fonts/coffee icons.ttf"); }
+@font-face {
+  font-family: Wingdings2;
+  src: url("../assets/fonts/Wingdings 2.ttf"); }
+#topNavigation {
+  background-color: #ffffff;
+  margin-top: 53px;
+  margin-bottom: 41px; }
+  #topNavigation #navRow {
+    width: 100%; }
+
+#containerNavbar {
+  margin-top: 15px; }
+
+.navbar-brand img {
+  height: 57px; }
+  .navbar-brand img .nav-link {
+    font-size: 48px; }
+
+a.nav-link {
+  font-family: BEBAS;
+  font-size: 20px;
+  margin-right: 35px; }
+
+.contentBlock {
+  background-color: #FAFAFA !important;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .contentBlock h2 {
+    font-family: BEBAS !important;
+    color: #BE1622 !important;
+    text-align: left !important;
+    margin-top: 33px;
+    font-size: 32px;
+    height: 32px;
+    margin-bottom: 20px; }
+  .contentBlock p {
+    font-family: Aaargh;
+    font-size: 13px; }
+  .contentBlock .blockImage {
+    margin-top: 65px; }
+
+#heroImageScrollDiv {
+  height: 580px;
+  background: url("../assets/images/1-desktop.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-left: -15px;
+  margin-right: -15px; }
+  #heroImageScrollDiv h4 {
+    color: white;
+    font-family: BEBAS;
+    font-size: 50px;
+    margin-top: 230px;
+    text-shadow: 5px 5px 10px grey; }
+
+#heroImageDivMobile {
+  height: 100%; }
+  #heroImageDivMobile h4 {
+    color: white;
+    font-family: BEBAS;
+    font-size: 24px;
+    margin-top: 90px; }
+
+#mobileLogo {
+  width: 200px; }
+
+#komLangsKnopDesktop {
+  position: relative;
+  bottom: 90px;
+  left: 110px; }
+  #komLangsKnopDesktop img {
+    width: 200px; }
+
+#dividerImage {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+#dividerImageScrollDiv {
+  height: 200px;
+  background: url("../assets/images/3-desktop.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: 100%; }
+  #dividerImageScrollDiv .wingdings {
+    color: white;
+    font-size: 32px;
+    font-family: BEBAS;
+    margin-top: 15px; }
+    #dividerImageScrollDiv .wingdings #coffeeCup {
+      color: white;
+      font-family: "coffee icons";
+      font-size: 75px; }
+    #dividerImageScrollDiv .wingdings #euroCharacter {
+      color: white;
+      font-family: sans-serif;
+      font-size: 75px; }
+    #dividerImageScrollDiv .wingdings #blaadjes {
+      color: white;
+      font-family: Wingdings2;
+      font-size: 75px; }
+
+.scrollImage {
+  overflow: scroll; }
+
+#komLangsDiv {
+  height: 80px;
+  width: 220px;
+  font-family: BEBAS !important;
+  font-size: 30px;
+  background-color: white; }
+
+#contactBlock {
+  font-family: Aaargh;
+  font-size: 13px !important; }
+  #contactBlock a:link {
+    color: black; }
+
+.blockImage {
+  margin-top: 55px; }
+
+.googleMapsIcon {
+  margin-right: 5px; }
+
+.inlineBlock {
+  display: inline-block; }
+
+#footer {
+  height: 150px;
+  margin-bottom: 50px;
+  background-color: #FAFAFA !important;
+  font-family: Aaargh; }
+  #footer #footerRow {
+    height: 100%; }
+  #footer #footerText {
+    margin-top: 60px; }
+
+@media (max-width: 991px) {
+  #topNavigation {
+    margin-bottom: 10px; }
+    #topNavigation .container {
+      width: 100%; }
+
+  #heroImageMobile {
+    margin-bottom: 20px; }
+
+  #heroImageDivMobile {
+    margin-top: 20px; }
+    #heroImageDivMobile img {
+      margin-top: -15px; }
+    #heroImageDivMobile h4 {
+      position: relative;
+      margin-top: 0px;
+      bottom: 135px;
+      text-align: center;
+      font-size: 20px; }
+
+  .contentBlock h2 {
+    margin-top: 15px; }
+
+  h2.text-center {
+    text-align: center !important; }
+
+  #komLangsKnopDesktop img {
+    width: 100px; }
+
+  img.img-fluid.blockImage {
+    width: 100%; }
+
+  #komLangsKnopDesktop {
+    position: relative;
+    bottom: 140px;
+    left: 230px; }
+
+  .contentBlock .blockImage {
+    margin-top: 10px; }
+
+  .contentBlock {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 0px; }
+
+  .wingdings {
+    font-size: 20px !important;
+    margin-top: 15px; }
+    .wingdings #coffeeCup {
+      font-size: 50px !important; }
+    .wingdings #euroCharacter {
+      font-size: 50px !important; }
+    .wingdings #blaadjes {
+      font-size: 50px !important; }
+
+  .col-sm-4.text-center.wingdings {
+    max-width: 32%; }
+
+  #dividerImageScrollDivMobile {
+    height: 100px;
+    background: url("../assets/images/3-mobiel-1000px.jpg") no-repeat;
+    background-size: 100%;
+    margin-left: -15px;
+    margin-right: -15px; }
+    #dividerImageScrollDivMobile .wingdings {
+      color: white;
+      font-size: 14px !important;
+      font-family: BEBAS;
+      margin-top: 15px; }
+      #dividerImageScrollDivMobile .wingdings #coffeeCupMobile {
+        color: white;
+        font-family: "coffee icons";
+        font-size: 20px; }
+      #dividerImageScrollDivMobile .wingdings #euroCharacterMobile {
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px; }
+      #dividerImageScrollDivMobile .wingdings #blaadjesMobile {
+        color: white;
+        font-family: Wingdings2;
+        font-size: 20px; }
+
+  #footer {
+    height: 50px;
+    margin-bottom: 0px; }
+    #footer #footerText {
+      margin-top: 15px; }
+      #footer #footerText p {
+        font-size: 10px; } }
+
+/*# sourceMappingURL=styles.css.map */
